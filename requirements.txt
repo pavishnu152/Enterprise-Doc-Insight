@@ -1,0 +1,15 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+langchain==0.1.4
+langchain-community==0.0.16
+pypdf==3.17.4
+sentence-transformers==2.3.1
+chromadb==0.4.22
+torch==2.2.0
+transformers==4.37.2
+accelerate==0.26.1
+bitsandbytes==0.42.0
+numpy==1.26.3
+requests==2.31.0

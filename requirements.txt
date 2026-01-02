@@ -13,7 +13,7 @@ pypdf==3.17.4
 sentence-transformers==2.3.1
 chromadb==0.4.22
 
-torch==2.5.1+cpu
+torch==2.5.1
 transformers==4.37.2
 accelerate==0.26.1
 bitsandbytes==0.42.0

@@ -5,8 +5,9 @@ python-multipart==0.0.6
 # Core typing / validation
 pydantic==2.5.3
 
-# LangChain ecosystem (keep it simple)
-langchain==0.1.5
+# LangChain ecosystem (compatible set)
+langchain==0.1.12
+langchain-community==0.0.28
 langchain-text-splitters==0.0.2
 
 # PDF + embeddings + vector DB

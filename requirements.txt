@@ -1,19 +1,25 @@
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 python-multipart==0.0.6
-pydantic==2.10.3
 
-langchain==0.1.6
+# Core typing / validation
+pydantic==2.5.3
+
+# LangChain ecosystem (keep it simple)
+langchain==0.1.5
 langchain-text-splitters==0.0.2
 
+# PDF + embeddings + vector DB
 pypdf==3.17.4
 sentence-transformers==2.3.1
 chromadb==0.4.22
 
-torch==2.5.1
-transformers==4.37.2
+# Torch + transformers stack (CPU)
+torch==2.1.0
+transformers==4.34.0
 accelerate==0.26.1
 bitsandbytes==0.42.0
 
+# Utilities
 numpy==1.26.3
 requests==2.31.0
